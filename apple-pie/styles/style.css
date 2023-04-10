@@ -17,8 +17,101 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.header img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  }
+
+  .header h5 
+  {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+  }
+
+.container
+{
+  position: absolute;
+  top: 90%;
+  left: 45%;
+}
+
+hr 
+{
+  width: 500px;
+  size: 10px;
+}
+
+.introduction
+{
+  font-size: 20px;
+  font-style: bold;
+  text-align: center;
+  margin: 60px 60px 60px 60px;
+
+}
+.introduction p
+{
+  text-align: center;
+  border: 0;
+  margin: 50px 400px 50px 400px;
+  padding: 30px;
+}
+
+.ingredients 
+{
+  font-size: 20px;
+  font-style: bold;
+  padding: 50px 200px 90px 250px;
+  }
+
+  .ingredients h4
+  {
+font-size: larger;
+padding-bottom: 30px;
+  }
+
+.instructions
+{
+  font-size: 20px;
+  font-style: bold;
+  padding: 50px 200px 200px 200px;
+}
+
+.instructions h4
+  {
+font-size: larger;
+padding-bottom: 30px;
+  }
+
+
+.images 
+{
+  text-align: center;
+}
+
+.instructions ol
+{
+  text-align: left;
+  list-style: none;
+}
+.instructions ol > li
+{
+  counter-increment: listcounter;
+}
+
+.instructions ol > li::before
+{
+    content: counter(listcounter) "-";
+} 
+
+
