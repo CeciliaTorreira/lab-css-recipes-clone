@@ -23,19 +23,26 @@ body {
 /* STYLES */
 /* Write your CSS below */
 
+
+header
+{
+margin-top: 0
+}
+
 .header img
 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 80%;
+  transform: scale(90%);
   }
 
   .header h5 
   {
     text-align: center;
     color: white;
-    font-size: 50px;
+    font-size: 60px;
   }
 
 .container
@@ -64,7 +71,7 @@ hr
   text-align: center;
   border: 0;
   margin: 50px 400px 50px 400px;
-  padding: 30px;
+
 }
 
 .ingredients 
